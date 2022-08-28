@@ -4,6 +4,9 @@ pkgs.mkShell {
   buildInputs = with pkgs; [
     cowsay
     hello
+    lf
+    neovim
+    nixfmt
   ];
 
   shellHook = ''
