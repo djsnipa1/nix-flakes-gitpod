@@ -7,6 +7,13 @@ pkgs.mkShell {
     lf
     neovim
     nixfmt
+    bat
+    exa
+    nnn
+    ranger
+    xplr
+    ripgrep
+    lazygit
   ];
 
   shellHook = ''
