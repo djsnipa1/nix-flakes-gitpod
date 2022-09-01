@@ -10,7 +10,7 @@
     home-manager.inputs.nixpkgs.follows = "/nixpkgs";
   };
 
-  outputs = { self, nixpkgs, flake-utils }:
+  outputs = { self, nixpkgs-unstable, nixpkgs, flake-utils, home-manager }:
     flake-utils.lib.eachDefaultSystem
       (system:
         let
